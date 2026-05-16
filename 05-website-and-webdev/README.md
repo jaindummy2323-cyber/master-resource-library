@@ -1,55 +1,62 @@
-# Website & Web Development
+# 05 — Website & Web Development
 
-Curated collection of the **best open-source tools** for every aspect of website and web development — from A to Z. Nothing skipped.
-
-> Priority: Official/authentic sources first (Vercel, Meta, Google, Anthropic), then top community repos.
+> The complete toolkit for building modern websites and web applications — from frameworks to deployment, covering every layer of the stack.
 
 ---
 
-## Subcategories (18 Folders — Complete Coverage)
+## Categories (18 Subfolders)
 
-| # | Folder | What It Covers | Key Repos |
-|---|--------|---------------|-----------|
-| 01 | `frameworks-and-starters/` | Full-stack frameworks, boilerplates, starter kits | Next.js, React, Vue, Svelte, Astro, Remix, T3 Stack |
-| 02 | `ui-component-libraries/` | Pre-built UI components, design systems | shadcn/ui, MUI, Ant Design, Chakra UI, Radix, Mantine |
-| 03 | `css-and-animation/` | CSS frameworks, animation engines, motion libraries | Tailwind CSS, Motion (Framer), GSAP, Anime.js |
-| 04 | `icons-and-assets/` | Icon sets, SVG libraries, free design assets | Lucide, Heroicons, Tabler Icons, Phosphor, Font Awesome |
-| 05 | `cms-tools/` | Headless CMS, content management, blog platforms | Strapi, Payload, Directus, Ghost |
-| 06 | `static-site-generators/` | SSGs for blogs, docs, marketing sites | Astro, Hugo, Eleventy, Jekyll |
-| 07 | `backend-and-api/` | Server frameworks, API builders, BaaS | Express, Fastify, NestJS, Hono, FastAPI, Supabase |
-| 08 | `databases-and-orms/` | Database tools, ORMs, migration utilities | Prisma, Drizzle, PocketBase, Neon |
-| 09 | `authentication/` | Auth libraries, identity providers, SSO | Auth.js, Better Auth, Keycloak, ZITADEL, Logto |
-| 10 | `hosting-and-deployment/` | Self-hosted PaaS, deployment automation | Coolify, Dokku, CapRover, Dokploy |
-| 11 | `ecommerce/` | Headless commerce, store builders, payment | Medusa, Saleor, Vendure, Bagisto |
-| 12 | `landing-pages/` | High-converting templates, page builders | Next.js templates, Webiny, open-source starters |
-| 13 | `no-code-lowcode/` | Visual builders, internal tool platforms | Appsmith, Budibase, ToolJet, Baserow, NocoDB |
-| 14 | `testing/` | E2E, unit, integration testing frameworks | Playwright, Cypress, Vitest, Jest |
-| 15 | `analytics-and-seo/` | Web analytics, SEO audit, performance monitoring | Plausible, Umami, Matomo, PostHog, Lighthouse |
-| 16 | `forms-and-surveys/` | Form builders, survey tools, data collection | Formbricks, HeyForm, Typebot, OpnForm |
-| 17 | `documentation/` | Docs site generators, API documentation | Docusaurus, VitePress, Starlight, Nextra |
-| 18 | `portfolio-templates/` | Personal sites, agency sites, showcases | Open-source portfolio starters |
+| # | Subfolder | What's Inside |
+|---|---|---|
+| 1 | [frameworks-and-starters](./frameworks-and-starters/) | Meta-frameworks (Next.js, Nuxt, Astro, SvelteKit), full-stack starters, build tools |
+| 2 | [ui-component-libraries](./ui-component-libraries/) | React, Vue, Svelte component libs — shadcn/ui, MUI, Radix, Mantine, DaisyUI |
+| 3 | [css-and-animation](./css-and-animation/) | Tailwind, CSS frameworks, animation libs (GSAP, Motion), CSS-in-JS, scroll effects |
+| 4 | [icons-and-assets](./icons-and-assets/) | Icon sets (Lucide, Heroicons, Tabler), fonts, illustrations, avatar generators |
+| 5 | [cms-tools](./cms-tools/) | Headless CMS (Strapi, Payload, Sanity), traditional CMS (Ghost, WordPress), wikis |
+| 6 | [static-site-generators](./static-site-generators/) | Hugo, Jekyll, Eleventy, Gatsby, MkDocs, Zola — pure static site generation |
+| 7 | [backend-and-api](./backend-and-api/) | Express, Fastify, FastAPI, Django, Gin, tRPC, API gateways, GraphQL, job queues |
+| 8 | [databases-and-orms](./databases-and-orms/) | Prisma, Drizzle, SQLAlchemy, Supabase, PocketBase, admin panels, migrations |
+| 9 | [authentication](./authentication/) | Auth.js, Keycloak, Lucia, OAuth/JWT, authorization (Casbin, CASL), passwordless |
+| 10 | [hosting-and-deployment](./hosting-and-deployment/) | Coolify, Dokku, K3s, Traefik, CI/CD (Gitea, Drone), monitoring (Uptime Kuma) |
+| 11 | [ecommerce](./ecommerce/) | Medusa, Saleor, Vendure, Bagisto, storefronts, payment systems (Stripe, Lago) |
+| 12 | [landing-pages](./landing-pages/) | SaaS templates, page builders (GrapesJS, Plasmic, Puck), email templates |
+| 13 | [no-code-lowcode](./no-code-lowcode/) | Appsmith, ToolJet, NocoDB, n8n, Activepieces, form builders (Formbricks, Typebot) |
+| 14 | [testing](./testing/) | Playwright, Cypress, Vitest, Jest, API testing, visual regression, mocking |
+| 15 | [analytics-and-seo](./analytics-and-seo/) | Plausible, Umami, PostHog, SEO tools, performance (web-vitals), error tracking |
+| 16 | [forms-and-surveys](./forms-and-surveys/) | Form builders, survey platforms, React form libs, validation (Zod, Yup), file upload |
+| 17 | [documentation](./documentation/) | Docusaurus, VitePress, API docs (Scalar, Redoc), Storybook, wikis, diagram tools |
+| 18 | [portfolio-templates](./portfolio-templates/) | Developer portfolios, creative sites, resumes, blog hybrids, agency templates |
 
 ---
 
 ## Selection Criteria
 
-Every repo listed meets these standards:
+Every repository listed meets these standards:
 
-- **Stars:** >500 minimum, >1000 preferred
-- **Active:** Commits within the last 6 months
-- **Complete:** Start-to-finish solutions, not fragments
-- **Documented:** Clear README with setup instructions
-- **Licensed:** Permissive (MIT, Apache 2.0, or similar)
-- **Proven:** Real users, real deployments
+- **Stars**: >500 minimum, >1000 preferred
+- **Active**: Commits within last 6 months
+- **Complete**: Start-to-finish solution, not fragments
+- **Documented**: Clear README with setup instructions
+- **Licensed**: MIT, Apache 2.0, or similar permissive license
+- **Proven**: Real users, real deployments
+
+---
+
+## Quick Stats
+
+- **18 subcategories** covering the full web development lifecycle
+- **400+ repositories** curated across all subfolders
+- **Every layer**: Frontend → Backend → Database → Auth → Deploy → Monitor
+- **Every framework**: React, Vue, Svelte, Astro, Next.js, Nuxt, and more
+- **Every role**: Developer, designer, DevOps, content creator
 
 ---
 
-## How to Navigate
+## How to Use This Section
 
-1. Pick the subfolder matching your need
-2. Each subfolder README has a curated table of repos
-3. Every entry: name, GitHub link, stars, description, why it made the cut
-4. Repos are ordered by quality and relevance, not just star count
-
----
-*Part of the [Master Resource Library](https://github.com/jaindummy2323-cyber/master-resource-library)*
+1. **Starting a new project?** → Check [frameworks-and-starters](./frameworks-and-starters/) for boilerplates
+2. **Need UI components?** → Browse [ui-component-libraries](./ui-component-libraries/) and [css-and-animation](./css-and-animation/)
+3. **Building an API?** → See [backend-and-api](./backend-and-api/) + [databases-and-orms](./databases-and-orms/)
+4. **Going to production?** → Check [hosting-and-deployment](./hosting-and-deployment/) + [testing](./testing/)
+5. **Need a portfolio?** → Jump to [portfolio-templates](./portfolio-templates/)
+6. **Building docs?** → Head to [documentation](./documentation/)
